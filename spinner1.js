@@ -1,5 +1,5 @@
 // process.stdout.write('hello from spinner1.js... \rheyyy\n');
-
+const backslash = "\\";
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
@@ -13,7 +13,6 @@ setTimeout(() => {
 }, 500);
 
 setTimeout(() => {
-  const backslash = "\\";
   process.stdout.write(`\r\\   `);
 }, 700);
 
@@ -30,7 +29,6 @@ setTimeout(() => {
 }, 1300);
 
 setTimeout(() => {
-  const backslash = "\\";
   process.stdout.write(`\r\\   `);
 }, 1500);
 
